@@ -1,0 +1,45 @@
+svg {
+    border: 1px solid #999;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sliderName {
+    float: left;
+    margin-right: 20px;
+}
+
+div.graphContainer {
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+  left: 20px;
+  top: 200px;
+}
+
+#line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+
+.singleCurve {
+    fill: none;
+    stroke: #00abff;
+    stroke-width: 1;
+}
